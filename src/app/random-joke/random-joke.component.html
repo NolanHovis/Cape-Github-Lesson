@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row justify-content-around">
+    <div class="col">
+      <button (click)="onCallTheChuck()">New Joke</button>
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-md-3 justify-content-center">
+      <img src={{jokeData.icon_url}}>
+    </div>
+    <div class="col-md-6 justify-content-center">
+      <p>{{jokeData.value}}</p>
+    </div>
+  </div>
+</div>
